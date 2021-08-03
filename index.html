@@ -1,89 +1,112 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" href="open-book.png">
 	<meta charset="utf-8">
 	<title>book review</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div>
-		<img src="https://images.unsplash.com/photo-1510172951991-856a654063f9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80">
-		<h1>all <br> about <br> books</h1>
-		<h2>learn more</h2>
+	<div id="top">
+		<img id="banner" src="alex-loup-2zDw14yCYqk-unsplash.jpg">
+		<div id="heading">
+			<h1>all <br> about <br> books</h1>
+		</div>
+		<h2 id="bannerText">learn more</h2>
 	</div>
 	<h2>top recommendations</h2>
-	<div>
-		<div>
+	<div id="topRecommendations">
+		<div class="border">
 			<!-- card 1 -->
-			<img src="https://images-na.ssl-images-amazon.com/images/I/61i8nC90deL.jpg">
+			<img class="cards" src="https://images-na.ssl-images-amazon.com/images/I/61i8nC90deL.jpg">
 			<p>Katniss volunteers to replace her sister in a tournament that ends only when one participant remains. Pitted against contestants who have trained for this all their life, she has little to rely on.</p>
-			<a href="https://en.wikipedia.org/wiki/The_Hunger_Games"><p>more info</p></a>
+			<a href="https://en.wikipedia.org/wiki/The_Hunger_Games"><p class="buttonMoreInfo">MORE INFO</p></a>
 		</div>
-		<div>
+		<div class="border">
 			<!-- card 2 -->
-			<img src="https://upload.wikimedia.org/wikipedia/en/d/db/The_Maze_Runner_cover.png">
+			<img class="cards" src="https://upload.wikimedia.org/wikipedia/en/d/db/The_Maze_Runner_cover.png">
 			<p>Thomas loses his memory and finds himself trapped in a massive maze called the Glade. He and his friends try to escape from the maze and eventually learn that they are subjects of an experiment.</p>
-			<a href="https://en.wikipedia.org/wiki/The_Maze_Runner_(film)"><p>more info</p></a>
+			<a href="https://en.wikipedia.org/wiki/The_Maze_Runner_(film)"><p class="buttonMoreInfo" >MORE INFO</p></a>
 		</div>
-		<div>
+		<div class="border">
 			<!-- card 3 -->
-			<img src="https://images-na.ssl-images-amazon.com/images/I/91oNu+R7EUL.jpg">
+			<img class="cards" src="https://images-na.ssl-images-amazon.com/images/I/91oNu+R7EUL.jpg">
 			<p>Tris Prior (Shailene Woodley) lives in a futuristic world in which society is divided into five factions. As each person enters adulthood, he or she must choose a faction and commit to it for life. </p>
-			<a href="https://en.wikipedia.org/wiki/Divergent_(book_series)"><p>more info</p></a>
+			<a href="https://en.wikipedia.org/wiki/Divergent_(book_series)"><p class="buttonMoreInfo" >MORE INFO</p></a>
 		</div>
-		<div>
+		<div class="border">
 			<!-- card 4 -->
-			<img src="https://i.pinimg.com/originals/e0/2a/a6/e02aa65172001645eb90a3da22c59979.jpg">
-			<p>Ember, a post-apocalyptic underground city threatened by aging infrastructure and corruption. Lina Mayfleet, and her friend, Doon Harrow, follow clues left behind by the original builders of the City of Ember, to safety in the outside world.</p>
-			<a href="https://en.wikipedia.org/wiki/The_City_of_Ember"><p>more info</p></a>
+			<img class="cards" src="https://i.pinimg.com/originals/e0/2a/a6/e02aa65172001645eb90a3da22c59979.jpg">
+			<p>Ember, a post-apocalyptic underground city threatened by aging infrastructure and corruption. Lina Mayfleet and Doon Harrow, follow clues left by the original builders, to safety in the outside world.</p>
+			<a href="https://en.wikipedia.org/wiki/The_City_of_Ember"><p class="buttonMoreInfo" >MORE INFO</p></a>
 		</div>
 	</div>
 
 
 	<h2>new releases</h2>
-	<div>
-		<div>
+
+	<div id="new">
+		<div class="column">
 			<h3>autobiograhy/memoir ></h3>
-			<div>
-				<img src="https://images-na.ssl-images-amazon.com/images/I/81h2gWPTYJL.jpg">
-				<p>becoming <br> michelle obama</p>
+			<div class="desc">
+				<img class="list" src="https://images-na.ssl-images-amazon.com/images/I/81h2gWPTYJL.jpg">
+				<div>
+					<p class="para">becoming <br> michelle obama</p>
+				</div>
 			</div>
-			<div>
-				<img src="https://m.media-amazon.com/images/I/91uwocAMtSL.jpg">
-				<p>a promised land <br> barack obama</p>
+			<div class="desc">
+				<img class="list" src="https://m.media-amazon.com/images/I/91uwocAMtSL.jpg">
+				<div>
+					<p class="para">a promised land <br> barack obama</p>
+				</div>
 			</div>
 		</div>
-		<div>
+		<div class="column">
 			<h3>mystery/detective ></h3>
-			<div>
-				<img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Adventures_of_sherlock_holmes.jpg">
-				<p>the adventures of sherlock holmes <br> a. conan doyle</p>
+			<div class="desc">
+				<img class="list" src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Adventures_of_sherlock_holmes.jpg">
+				<div>
+					<p class="para">the adventures of sherlock holmes <br> a. conan doyle</p>
+				</div>
 			</div>
-			<div>
-				<img src="https://m.media-amazon.com/images/I/41fzALTBP5L.jpg">
-				<p>the mysterious affair at styles <br> agatha christie</p>
+			<div class="desc">
+				<img class="list" src="https://m.media-amazon.com/images/I/41fzALTBP5L.jpg">
+				<div>
+					<p class="para">the mysterious affair at styles <br> agatha christie</p>
+				</div>
 			</div>
 		</div>
-		<div>
+		<div class="column">
 			<h3>teen/young adult ></h3>
-			<div>
-				<img src="https://images-na.ssl-images-amazon.com/images/I/9123eop9gIL.jpg">
-				<p>the book theif <br> markus zusak</p>
+			<div class="desc">
+				<img class="list" src="https://images-na.ssl-images-amazon.com/images/I/9123eop9gIL.jpg">
+				<div>
+					<p class="para">the book theif <br> markus zusak</p>
+				</div>
 			</div>
-			<div>
-				<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476284759l/32075671._SY475_.jpg">
-				<p>the hate u give <br> angie thomas</p>
+			<div class="desc">
+				<img class="list" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476284759l/32075671._SY475_.jpg">
+				<div>
+					<p class="para">the hate u give <br> angie thomas</p>
+				</div>
 			</div>
 		</div>
-		<div>
+		<div class="column">
 			<h3>nonfiction/informative ></h3>
-			<div>
-				<img src="https://images-na.ssl-images-amazon.com/images/I/613xliMRGmL.jpg">
-				<p>into thin air <br> jon krakauer</p>
+			<div class="desc">
+				<img class="list" src="https://images-na.ssl-images-amazon.com/images/I/613xliMRGmL.jpg">
+				<div>
+					<p class="para">into thin air <br> jon krakauer</p>
+				</div>
 			</div>
-			<div>
-				<img src="https://images-na.ssl-images-amazon.com/images/I/41DKcF0g4xL._SX328_BO1,204,203,200_.jpg">
-				<p>into the wild <br> jon krakauer</p>
+			<div class="desc">
+				<img class="list" src="https://images-na.ssl-images-amazon.com/images/I/41DKcF0g4xL._SX328_BO1,204,203,200_.jpg">
+				<div>
+					<p class="para">into the wild <br> jon krakauer</p>
+				</div>
 			</div>
 		</div>
 	</div>
