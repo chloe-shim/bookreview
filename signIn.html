@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>sign in!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="icon" href="open-book.png">
+	<style type="text/css">
+		img {
+			width: 70%;
+			height: 765px;
+		}
+		#signIn {
+			display: flex;
+			background-color: lightgray;
+		}
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		#signInForm {
+			padding: 5%;
+		}
+		.btn-primary {
+			background-color: gray;
+			border: 1px solid gray;
+		}
+		.btn-primary:hover {
+			background-color: black;
+			border: 1px solid black;
+		}
+		.form-check {
+			padding-bottom: 2%;
+		}
+		#newAccountInput {
+			padding-top: 1%;
+			font-size: 12px;
+		}
+		a {
+			color: black;
+		}
+		a:hover {
+			color: white;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<div id="signIn">
+		<img src="https://images.unsplash.com/photo-1608099269227-82de5da1e4a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=664&q=80">
+		<div id="signInForm">
+			<h2>Sign In </h2>
+			<form>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Email address</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+			    <small id="emailHelp" class="form-text text-muted">we'll never share your email with anyone else.</small>
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1">Password</label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="your password">
+			    <div id="newAccountInput">
+			    	<label for="exampleInputPassword1"><a href="loginPage.html">Create a new account</a></label>
+			    </div>
+			  </div>
+			  <div class="form-check">
+			    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+			    <label class="form-check-label" for="exampleCheck1">Save my info</label>
+			  </div>
+			  <button type="submit" class="btn btn-primary"><a href="descpage.html">Submit</a></button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
